@@ -1,4 +1,6 @@
-value=19
+from car import Car
+
+car = Car("A")
 
 print("Hello")
-print(value)
+print(car.value)
